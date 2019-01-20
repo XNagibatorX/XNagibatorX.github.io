@@ -117,6 +117,10 @@ p {
   font-size: 14.5px;
   color: #838383; }
 
+.footer {
+  border-top: solid 5px #fcc6a6;
+  padding-top: 30px; }
+
 .list-unstyled li {
   color: #eb7897;
   text-transform: uppercase; }
