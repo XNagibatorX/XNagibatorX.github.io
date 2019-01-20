@@ -1,5 +1,5 @@
 body {
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: 'Raleway', sans-serif; }
 
 .navbar-default .navbar-nav > li > a {
   color: black; }
@@ -28,10 +28,12 @@ body {
   font-size: 18px; }
 
 .product_price {
-  font-size: 22px; }
+  font-size: 22px;
+  color: black; }
 
 h1 {
-  font-size: 22px; }
+  font-size: 2em;
+  color: #eb7897; }
 
 h2 {
   font-size: 20px; }
@@ -45,12 +47,23 @@ h4 {
 .thumbnail {
   border: none; }
 
-.caption {
+.caption p {
   color: black; }
 
 .breadcrumb {
   background-color: white;
   padding: 8px 0px; }
+
+.breadcrumb li a {
+  font-size: 13px;
+  color: #eb7897; }
+
+.breadcrumb li.active {
+  font-size: 13px;
+  color: #838383; }
+
+.breadcrumb li a:hover {
+  text-decoration: none; }
 
 .tab-pane {
   padding-top: 10px;
@@ -69,3 +82,46 @@ h4 {
 
 .yandex_search_form {
   padding-top: 3px; }
+
+.btn__catalog-group {
+  min-width: 80%;
+  border: 1px solid black;
+  border-radius: 0;
+  background-color: white; }
+
+.btn__catalog-group:hover {
+  min-width: 80%;
+  border: 1px solid black;
+  border-radius: 0;
+  background-color: white; }
+
+.btn__product-buy {
+  background-color: #fcc6a6;
+  color: white;
+  border-radius: 0;
+  border-color: #fcc6a6;
+  letter-spacing: 4px;
+  font-size: 18px;
+  padding: 17px 30px 15px; }
+
+.btn__product-buy:hover {
+  background-color: #fcc6a6;
+  color: white;
+  border-radius: 0;
+  border-color: #fcc6a6;
+  letter-spacing: 4px;
+  font-size: 18px;
+  padding: 17px 30px 15px; }
+
+p {
+  font-size: 14.5px;
+  color: #838383; }
+
+.list-unstyled li {
+  color: #eb7897;
+  text-transform: uppercase; }
+
+.nav-tabs > li.active > a {
+  font-size: 14.5px;
+  font-weight: bold;
+  color: #838383; }
