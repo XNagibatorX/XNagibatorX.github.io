@@ -1,8 +1,16 @@
 body {
   font-family: 'Raleway', sans-serif; }
 
+.logo img {
+  max-width: 180px; }
+
+.navbar navbar-default {
+  margin-bottom: 0px; }
+
 .navbar-default .navbar-nav > li > a {
-  color: black; }
+  padding-top: 24px;
+  color: black;
+  font-size: 15px; }
 
 .navbar-default .navbar-brand {
   color: black; }
@@ -82,7 +90,7 @@ h4 {
   padding-top: 3px; }
 
 .yandex_search_form {
-  padding-top: 3px; }
+  padding-top: 11px; }
 
 .btn__catalog-group {
   min-width: 80%;
