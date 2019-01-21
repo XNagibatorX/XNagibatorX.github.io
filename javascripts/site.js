@@ -1,13 +1,7 @@
-let currentPrice = document.getElementById('currentPrice').innerText;
+const currentPrice = document.getElementById('currentPrice').innerText;
 
-window.onclick = function onclickRadio() {
-	let nameRadio = document.getElementsByName('nameRadio');
-
-	for (let i = 0; i < nameRadio.length; i++) {
-		if (nameRadio[i].type === 'radio' && nameRadio[i].checked) {
-    		rezultatRadio = nameRadio[i].value;       
-		}
-	}
-
-	document.getElementById('currentPrice').innerHTML = rezultatRadio*currentPrice;
-}
+function calculatePrice() {
+	let currentSelect = document.getElementById('weightSelect').selectedIndex;
+	let weightPriceValue = document.getElementById('weightSelect').options[currentSelect].value;
+    document.getElementById("currentPrice").innerHTML = currentPrice * weightPriceValue;
+};
